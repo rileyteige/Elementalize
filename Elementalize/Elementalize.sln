@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elementalize", "Elementalize\Elementalize.csproj", "{F808320F-241A-460C-A281-9944BEFEDD48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMBase", "..\..\..\Visual Studio 2010\Projects\MVVMBase\MVVMBase\MVVMBase.csproj", "{3118C2D5-C6E6-48A2-8B34-ECF80EFA987B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMBase", "MVVMBase\MVVMBase\MVVMBase.csproj", "{3118C2D5-C6E6-48A2-8B34-ECF80EFA987B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

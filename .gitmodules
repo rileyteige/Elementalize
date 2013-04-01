@@ -1,0 +1,3 @@
+[submodule "Elementalize/MVVMBase"]
+	path = Elementalize/MVVMBase
+	url = git://github.com/rileyteige/MVVMBase.git

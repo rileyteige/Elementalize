@@ -111,7 +111,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Visual Studio 2010\Projects\MVVMBase\MVVMBase\MVVMBase.csproj">
+    <ProjectReference Include="..\MVVMBase\MVVMBase\MVVMBase.csproj">
       <Project>{3118c2d5-c6e6-48a2-8b34-ecf80efa987b}</Project>
       <Name>MVVMBase</Name>
     </ProjectReference>
