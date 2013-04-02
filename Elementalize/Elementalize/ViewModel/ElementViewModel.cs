@@ -12,8 +12,14 @@ namespace PeriodicName.ViewModel
 		public ElementViewModel(Element element)
 			: base()
 		{
+			_atomicNumber = element.AtomicNumber;
 			_name = element.Name;
 			_symbol = element.Symbol;
+		}
+
+		public string AtomicNumber
+		{
+			get { return _atomicNumber; }
 		}
 
 		public string Name
@@ -26,6 +32,7 @@ namespace PeriodicName.ViewModel
 			get { return _symbol; }
 		}
 
+		private string _atomicNumber;
 		private string _name;
 		private string _symbol;
 	}

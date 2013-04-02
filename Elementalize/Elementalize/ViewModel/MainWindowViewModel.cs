@@ -146,7 +146,12 @@ namespace PeriodicName.ViewModel
 						.Select(line =>
 						{
 							string[] data = line.Split(',');
-							return new Element(data[0], data[1]);
+							return new Element
+							(
+								symbol: data[1],
+								name: data[2],
+								atomicNumber: data[0]
+							);
 						})
 						.ToList();
 		}
