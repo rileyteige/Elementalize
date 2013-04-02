@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="{Binding Title}"
         Height="200"
-        Width="525"
+        MinWidth="525"
+        SizeToContent="Width"
         WindowStartupLocation="CenterScreen"
         ResizeMode="CanMinimize"
         FocusManager.FocusedElement="{Binding ElementName=inputTextBox}">
@@ -18,7 +19,7 @@
                  FontSize="18"
                  Text="{Binding Input, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
-        <ItemsControl Padding="0 2 0 0"
+        <ItemsControl Padding="32 8"
                       ItemsSource="{Binding Elements}"
                       HorizontalAlignment="Center"
                       VerticalAlignment="Center">

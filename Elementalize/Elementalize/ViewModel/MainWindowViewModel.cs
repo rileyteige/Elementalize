@@ -90,7 +90,7 @@ namespace PeriodicName.ViewModel
 
 		private void FindElements()
 		{
-			var matchedElements = Match(Input);
+			var matchedElements = Match(Input.Replace(" ", String.Empty));
 
 			if (matchedElements == null)
 			{
