@@ -21,6 +21,12 @@
 
         <ListBox Padding="32 8"
                  ItemsSource="{Binding Words}"
-                 HorizontalContentAlignment="Center" />
+                 HorizontalContentAlignment="Center">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Focusable" Value="False" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
     </DockPanel>
 </Window>
