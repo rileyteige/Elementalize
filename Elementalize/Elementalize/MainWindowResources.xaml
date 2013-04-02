@@ -1,7 +1,11 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:v="clr-namespace:PeriodicName.View"
-                    xmlns:vm="clr-namespace:PeriodicName.ViewModel">
+                    xmlns:v="clr-namespace:Elementalize.View"
+                    xmlns:vm="clr-namespace:Elementalize.ViewModel">
+    
+    <DataTemplate DataType="{x:Type vm:WordViewModel}">
+        <v:WordView />
+    </DataTemplate>
     
     <DataTemplate DataType="{x:Type vm:ElementViewModel}">
         <v:ElementView />

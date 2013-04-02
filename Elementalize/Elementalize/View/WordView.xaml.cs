@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Elementalize.View
 {
 	/// <summary>
-	/// Interaction logic for ElementView.xaml
+	/// Interaction logic for WordView.xaml
 	/// </summary>
-	public partial class ElementView : UserControl
+	public partial class WordView : UserControl
 	{
-		public ElementView()
+		public WordView()
 		{
 			InitializeComponent();
 		}

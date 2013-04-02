@@ -1,8 +1,8 @@
-﻿<Window x:Class="PeriodicName.MainWindow"
+﻿<Window x:Class="Elementalize.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="{Binding Title}"
-        Height="200"
+        Height="525"
         MinWidth="525"
         SizeToContent="Width"
         WindowStartupLocation="CenterScreen"
@@ -19,15 +19,8 @@
                  FontSize="18"
                  Text="{Binding Input, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
-        <ItemsControl Padding="32 8"
-                      ItemsSource="{Binding Elements}"
-                      HorizontalAlignment="Center"
-                      VerticalAlignment="Center">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <StackPanel Orientation="Horizontal" />
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-        </ItemsControl>
+        <ListBox Padding="32 8"
+                 ItemsSource="{Binding Words}"
+                 HorizontalContentAlignment="Center" />
     </DockPanel>
 </Window>

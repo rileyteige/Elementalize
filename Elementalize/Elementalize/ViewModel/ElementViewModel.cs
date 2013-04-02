@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PeriodicName.Model;
+﻿using Elementalize.Model;
 
-namespace PeriodicName.ViewModel
+namespace Elementalize.ViewModel
 {
 	public class ElementViewModel : MVVMBase.ViewModel.ViewModelBase
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PeriodicName.Model
+namespace Elementalize.Model
 {
 	public class Element
 	{
